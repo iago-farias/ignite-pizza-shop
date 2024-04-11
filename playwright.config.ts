@@ -24,13 +24,13 @@ export default defineConfig({
   // reporter: 'html',
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
-    baseURL: 'http://127.0.0.1:50789',
+    baseURL: 'http://localhost:3232',
   },
 
   /* Run your local dev server before starting the tests */
   webServer: {
     command: 'npm run dev:test',
-    url: 'http://127.0.0.1:50789',
+    url: 'http://localhost:3232',
     reuseExistingServer: !process.env.CI,
   },
 
