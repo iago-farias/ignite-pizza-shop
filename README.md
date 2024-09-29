@@ -7,6 +7,10 @@ A aplicação possui uma página de dashboards e uma de acompanhamento de pedido
 Para a estilização foi utilizado o tailwind css e alguns components do radix ui. 
 Para os testes e2e foi utilizado o playwright.
 
+<p align="center">
+  <img alt="Screen capture" src=".gh-assets/pizza-shop.gif" />
+</p>
+
 # Como rodar
 
 ## Instalar as dependências
